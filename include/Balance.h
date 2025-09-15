@@ -5,8 +5,12 @@
 #ifndef BUDGETTRACKER_BALANCE_H
 #define BUDGETTRACKER_BALANCE_H
 
+using namespace std;
 
-class Balance {
+struct Balance {
+    double balance = 0.0;
+    void add(double value);
+    void subtract(double value);
 };
 
 

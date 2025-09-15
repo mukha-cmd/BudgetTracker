@@ -3,3 +3,12 @@
 //
 
 #include "Balance.h"
+
+using namespace std;
+
+void Balance::add(double value) {
+    balance += value;
+}
+void Balance::subtract(double value) {
+    balance -= value;
+}
