@@ -10,8 +10,7 @@ struct Expense {
     std::string description;
     double cost{};
 
-    Expense(const std::string& t, const std::string& d,
-            const std::string& desc, double c);
+    Expense(const std::string &t, const std::string &d, const std::string &desc, double c);
 
     void print() const;
 };
